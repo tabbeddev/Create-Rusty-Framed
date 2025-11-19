@@ -2,7 +2,7 @@
 //
 // Also remember to fix the advancements manually
 
-async function fixFile(jsonContent: any) {
+function fixFile(jsonContent: any) {
   if (jsonContent.type === "minecraft:stonecutting") {
     if (typeof jsonContent.result !== "string") {
       const result = jsonContent.result.id;
@@ -59,7 +59,7 @@ async function readDirectory(path: string) {
       const fileContent = await Deno.readTextFile(filePath);
       const jsonContent = JSON.parse(fileContent);
 
-      const newJsonContent = await fixFile(Object.assign({}, jsonContent));
+      const newJsonContent = fixFile(Object.assign({}, jsonContent));
 
       const stringifiedJsonContent = JSON.stringify(newJsonContent).replaceAll(
         '"id":',
