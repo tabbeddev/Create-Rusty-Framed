@@ -1,6 +1,7 @@
 package de.tabbeddev.create_rusty_framed.registry;
 
 import com.simibubi.create.content.decoration.CardboardBlock;
+import com.simibubi.create.content.decoration.CardboardBlockItem;
 import com.simibubi.create.content.decoration.TrainTrapdoorBlock;
 import com.simibubi.create.content.decoration.palettes.ConnectedGlassPaneBlock;
 import com.simibubi.create.content.decoration.palettes.GlassPaneBlock;
@@ -127,8 +128,8 @@ public enum CreateFramedBlocks {
         glass_door = CreateFramedBuilderTransformers.framedGlassSlidingDoor(name, template_block.defaultMapColor());
         glass_trapdoor = CreateFramedBuilderTransformers.framedGlassTrapdoor(name, template_block.defaultMapColor(), basic_ctshift.get());
 
-        cardboard_block = REGISTRATE.block(name + "_cardboard_block", CardboardBlock::new).initialProperties(() -> Blocks.MUSHROOM_STEM).properties(p -> p.sound(SoundType.CHISELED_BOOKSHELF).ignitedByLava().mapColor(template_block.defaultMapColor())).item().build().register();
-        bound_cardboard_block = REGISTRATE.block("bound_" + name + "_cardboard_block", CardboardBlock::new).initialProperties(() -> Blocks.MUSHROOM_STEM).properties(p -> p.sound(SoundType.CHISELED_BOOKSHELF).ignitedByLava().mapColor(template_block.defaultMapColor())).item().build().register();
+        cardboard_block = REGISTRATE.block(name + "_cardboard_block", CardboardBlock::new).initialProperties(() -> Blocks.MUSHROOM_STEM).properties(p -> p.sound(SoundType.CHISELED_BOOKSHELF).ignitedByLava().mapColor(template_block.defaultMapColor())).item(CardboardBlockItem::new).build().register();
+        bound_cardboard_block = REGISTRATE.block("bound_" + name + "_cardboard_block", CardboardBlock::new).initialProperties(() -> Blocks.MUSHROOM_STEM).properties(p -> p.sound(SoundType.CHISELED_BOOKSHELF).ignitedByLava().mapColor(template_block.defaultMapColor())).item(CardboardBlockItem::new).build().register();
     }
 
     public BlockEntry<ConnectedFramedGlassBlock> getGlassBlock() {
