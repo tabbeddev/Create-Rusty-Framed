@@ -1,1 +1,1 @@
-{"type":"minecraft:stonecutting","ingredient":{"tag":"c:glass_blocks/magenta"},"result":"createframed:magenta_stained_tiled_glass","count":1}
+{"type":"minecraft:stonecutting","ingredient":{"tag":"forge:glass/magenta"},"result":"createframed:magenta_stained_tiled_glass","count":1}

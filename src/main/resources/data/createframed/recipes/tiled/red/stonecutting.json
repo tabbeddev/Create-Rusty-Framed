@@ -1,1 +1,1 @@
-{"type":"minecraft:stonecutting","ingredient":{"tag":"c:glass_blocks/red"},"result":"createframed:red_stained_tiled_glass","count":1}
+{"type":"minecraft:stonecutting","ingredient":{"tag":"forge:glass/red"},"result":"createframed:red_stained_tiled_glass","count":1}

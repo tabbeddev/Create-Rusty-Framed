@@ -1,1 +1,1 @@
-{"type":"minecraft:stonecutting","ingredient":{"tag":"c:glass_blocks/gray"},"result":"createframed:gray_stained_framed_glass","count":1}
+{"type":"minecraft:stonecutting","ingredient":{"tag":"forge:glass/gray"},"result":"createframed:gray_stained_framed_glass","count":1}
