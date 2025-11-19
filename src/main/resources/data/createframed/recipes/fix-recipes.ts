@@ -64,6 +64,7 @@ async function readDirectory(path: string) {
       const stringifiedJsonContent = JSON.stringify(newJsonContent)
         .replaceAll('"id":', '"item":')
         .replaceAll("c:glass_blocks", "forge:glass")
+        .replaceAll("c:strings", "forge:string")
         .replaceAll("c:", "forge:");
       // console.log(newJsonContent);
       // console.log(jsonContent);

@@ -1,1 +1,1 @@
-{"type":"create:item_application","ingredients":[{"item":"createframed:light_blue_cardboard_block"},{"tag":"forge:strings"}],"results":[{"item":"createframed:bound_light_blue_cardboard_block"}]}
+{"type":"create:item_application","ingredients":[{"item":"createframed:light_blue_cardboard_block"},{"tag":"forge:string"}],"results":[{"item":"createframed:bound_light_blue_cardboard_block"}]}

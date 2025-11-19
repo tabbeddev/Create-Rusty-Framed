@@ -1,1 +1,1 @@
-{"type":"create:item_application","ingredients":[{"item":"createframed:green_cardboard_block"},{"tag":"forge:strings"}],"results":[{"item":"createframed:bound_green_cardboard_block"}]}
+{"type":"create:item_application","ingredients":[{"item":"createframed:green_cardboard_block"},{"tag":"forge:string"}],"results":[{"item":"createframed:bound_green_cardboard_block"}]}
