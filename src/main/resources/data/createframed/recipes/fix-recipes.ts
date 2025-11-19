@@ -61,10 +61,10 @@ async function readDirectory(path: string) {
 
       const newJsonContent = fixFile(Object.assign({}, jsonContent));
 
-      const stringifiedJsonContent = JSON.stringify(newJsonContent).replaceAll(
-        '"id":',
-        '"item":'
-      );
+      const stringifiedJsonContent = JSON.stringify(newJsonContent)
+        .replaceAll('"id":', '"item":')
+        .replaceAll("c:glass_blocks", "forge:glass")
+        .replaceAll("c:", "forge:");
       // console.log(newJsonContent);
       // console.log(jsonContent);
       // console.log(
