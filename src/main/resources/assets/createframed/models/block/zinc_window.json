@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "create:block/zinc_block",
+    "side": "createframed:block/zinc_window"
+  }
+}

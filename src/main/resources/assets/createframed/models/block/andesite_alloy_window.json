@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "create:block/andesite_block",
+    "side": "createframed:block/andesite_alloy_window"
+  }
+}

@@ -1,0 +1,9 @@
+package de.tabbeddev.create_rusty_framed.block;
+
+import com.simibubi.create.content.decoration.palettes.ConnectedGlassPaneBlock;
+
+public class TintedConnectedGlassPaneBlock extends ConnectedGlassPaneBlock {
+    public TintedConnectedGlassPaneBlock(Properties properties) {
+        super(properties);
+    }
+}

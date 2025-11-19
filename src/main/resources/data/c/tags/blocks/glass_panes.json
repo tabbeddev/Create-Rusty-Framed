@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "#createframed:red/pane",
+    "#createframed:orange/pane",
+    "#createframed:yellow/pane",
+    "#createframed:green/pane",
+    "#createframed:lime/pane",
+    "#createframed:blue/pane",
+    "#createframed:light_blue/pane",
+    "#createframed:cyan/pane",
+    "#createframed:purple/pane",
+    "#createframed:magenta/pane",
+    "#createframed:pink/pane",
+    "#createframed:black/pane",
+    "#createframed:gray/pane",
+    "#createframed:light_gray/pane",
+    "#createframed:white/pane",
+    "#createframed:brown/pane",
+    "#createframed:tinted/pane",
+    "createframed:andesite_alloy_window_pane",
+    "createframed:brass_window_pane",
+    "createframed:copper_window_pane",
+    "createframed:rose_quartz_window_pane",
+    "createframed:zinc_window_pane"
+  ]
+}

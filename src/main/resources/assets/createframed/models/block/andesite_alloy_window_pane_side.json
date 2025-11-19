@@ -1,0 +1,7 @@
+{
+  "parent": "create:block/connected_glass_pane/side",
+  "textures": {
+    "edge": "create:block/andesite_block",
+    "pane": "createframed:block/andesite_alloy_window"
+  }
+}
